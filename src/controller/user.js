@@ -139,7 +139,7 @@ exports.recoverPassword = async function recoverPassword(ctx, next) {
     }
     await addResetPasswordToken(tokenObj)
     let message = {
-        from: '1923222312@qq.com',
+        from: '1115414944@qq.com',
         to: tokenObj.mail,
         subject: '重置密码',
         text: `${body.url}#/recover?token=${tokenObj.token}&mail=${tokenObj.mail}`,
