@@ -1,0 +1,27 @@
+{
+    "name": "FastCreate-Server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/geihei/FastCreate-Server.git",
+    "author": "geihei <1115414944@qq.com>",
+    "license": "MIT",
+    "scripts": {
+        "server": "cross-env NODE_ENV=develop node ./index.js",
+        "server:develop": "cross-env NODE_ENV=develop node ./index.js",
+        "server:production": "cross-env NODE_ENV=production node ./index.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cross-env": "^7.0.2",
+        "extend": "^3.0.2",
+        "koa": "^2.11.0",
+        "koa-body": "^4.1.1",
+        "koa-compress": "^4.0.1",
+        "koa-router": "^8.0.8",
+        "koa-session": "^6.0.0",
+        "koa2-cors": "^2.0.6",
+        "mongoose": "^5.9.13",
+        "mongoose-sequence": "^5.2.2",
+        "uuid": "^8.0.0"
+    }
+}
